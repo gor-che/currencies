@@ -20,6 +20,7 @@ http://localhost:8088/
 В ответ на запрос приложение должно вернуть курсы валют в XML формате, для этого необходимо преобразовать полученные данные из JSON в XML формат
 
 Пример ответа XML формате:
+```
 <exchangerates>
 	<row>
 		<exchangerate ccy="USD" base_ccy="UAH" buy="27.60000" sale="28.02000"/>
@@ -34,3 +35,5 @@ http://localhost:8088/
 		<exchangerate ccy="BTC" base_ccy="USD" buy="9766.8318" sale="10794.9194"/>
 	</row>
 </exchangerates>
+
+```
