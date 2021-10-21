@@ -1,0 +1,10 @@
+*.beam
+deps/*
+log/*
+_rel/*
+*.d
+.erlang.mk/*
+erlang.mk
+*.dump
+ebin/*
+.rebar/
